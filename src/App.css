@@ -1,0 +1,65 @@
+/* src/App.css */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-toggle .react-toggle-track {
+  background-color: #000;
+}
+
+.dark-mode-toggle .react-toggle-thumb {
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* Mobile styles */
+  .app {
+    padding: 1rem;
+  }
+
+  nav {
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+}
